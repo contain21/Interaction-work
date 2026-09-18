@@ -32,7 +32,7 @@
 
 完整的游戏流程演示视频（含音效）：从造词、填写意思、绘制提示，到猜词、相似度评分（示例得分 86）、ChatGPT 解释及 DALL-E 生成图像全过程。
 
-![演示视频](redpandacompress_电影和电视 2023-12-31 20-57-38.mp4)
+![演示视频](demo.mp4)
 
 ---
 ## ✨ 创新点
@@ -105,48 +105,66 @@
 
 ## 🖼️ 界面展示
 
-> 💡 建议将各界面截图放入 `docs/images/` 目录后取消注释以下图片引用。
-
 ### 主菜单
 
 启动程序后进入主菜单，云朵背景，鼠标悬停按钮时颜色变化，运行即有 BGM。
 
-markdown
+<div align="center">
+<img width="900" height="661" alt="Untitled (1)" src="https://github.com/user-attachments/assets/7de94cc0-5088-4a91-abbe-58010f225101" />
+</div>
 
 
 ### 设置界面
 
 可滑动滑块调整方块一~四音效、按钮音效、背景音乐的音量，点击"播放/暂停"控制背景音乐。
 
-markdown
+<div align="center">
+<img width="902" height="661" alt="Untitled (2)" src="https://github.com/user-attachments/assets/20308516-58ed-4183-93a4-8d5bb7dfc2d7" />
+
+</div>
 
 
 ### 角色选择
 
 可选择"出词人"或"猜词人"身份。
 
-markdown
+<div align="center">
+   <img width="896" height="624" alt="Untitled (3)" src="https://github.com/user-attachments/assets/14e8b1e9-f0f7-4889-83c5-3323c7e4e419" />
 
+</div>
 
 ### 出词人界面
 
 四个方块从 192 字表中随机选取，点击方块文字填入下方方框组成词语，文本框输入词语意思，支持提交与绘制。
 
-markdown
+<div align="center">
+   <img width="900" height="645" alt="Untitled (4)" src="https://github.com/user-attachments/assets/56039b40-f7f3-492b-a8c5-f7dca9e38bda" />
+
+</div>
+
 
 
 ### 绘制界面
 
 鼠标绘制与词语意思相关的图案作为提示，`Clear` 清除画板，`Save` 保存图像。
 
-markdown
+<div align="center">
+   <img width="901" height="644" alt="Untitled (8)" src="https://github.com/user-attachments/assets/9f7b7d1a-387e-4987-952b-1e68b161fc79" />
+<img width="802" height="603" alt="Untitled (7)" src="https://github.com/user-attachments/assets/7ada3289-1fcf-45d8-9a5a-ff64f58d47ec" />
+
+</div>
+
 
 
 ### 猜词人界面
 
 中央为所造词语，支持上一行/下一行切换、查看提示图像、输入猜测并提交得分、ChatGPT 解释、DALL-E 显示图像。
 
-markdown
+<div align="center">
+   <img width="899" height="640" alt="Untitled (11)" src="https://github.com/user-attachments/assets/d1f41b29-de98-4e8c-92b3-25547de6b8e3" />
+
+</div>
+
 
 
 ---
