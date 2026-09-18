@@ -145,62 +145,6 @@ markdown
 
 ---
 
-## 🚀 快速开始
-
-### 1. 安装依赖
-
-bash
-pip install PyQt5 pygame openai pandas openpyxl
-
-
-### 2. 配置 OpenAI API
-
-在代码中填入自己的 OpenAI API Key（用于 ChatGPT 解释与 DALL-E 画图）：
-
-python
-openai.api_key = “sk-xxxx” # 替换为你的 API Key
-
-
-> ⚠️ 请勿将 API Key 上传到公开仓库，建议使用环境变量管理。
-
-### 3. 准备数据与素材
-
-确认项目目录下包含：
-
-- `32块方块上的192字.xlsx` —— 方块字数据集
-- `1.jpg ~ 6.jpg` —— 各界面背景图
-- 背景音乐及音效文件
-
-### 4. 运行游戏
-
-bash
-python 开始.py
-
-
-启动后控制台输出 pygame 欢迎信息，主菜单窗口弹出即代表运行成功。
-
----
-
-## 📁 项目结构
-
-wordgame/
-├── 开始.py # 程序入口（QApplication + MainMenu + BGM）
-├── 主菜单.py # 主菜单界面
-├── 设置.py # 音量设置界面
-├── 造词游戏.py # 游戏流程控制
-├── 造词出词人.py # 出词人界面与逻辑
-├── 造词猜词人.py # 猜词人界面与逻辑
-├── Draw.py # 绘制画板窗口
-├── drawing_data.py # 绘制图像数据管理
-├── likelihood.py # 相似度评分调用
-├── main.py # 辅助入口
-├── CHlikelihood-master/ # 语言模型似然相似度算法库
-├── 32块方块上的192字.xlsx # 方块字数据集
-├── 1.jpg ~ 6.jpg # 界面背景图
-└── README.md
-
-
----
 
 ## ⚙️ 配置说明
 
@@ -217,7 +161,6 @@ wordgame/
 
 完整的游戏流程演示视频（含音效）：从造词、填写意思、绘制提示，到猜词、相似度评分（示例得分 86）、ChatGPT 解释及 DALL-E 生成图像全过程。
 
-> 可将演示视频放入仓库 `docs/demo.mp4` 并在此处引用，或使用 GitHub Release / 外链托管。
 
 ---
 
